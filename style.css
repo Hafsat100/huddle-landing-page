@@ -101,7 +101,6 @@ a{
     .logo img{
         width: 144px;
     } 
-    
     .content{
         display: flex;
         flex-wrap: wrap;
@@ -111,7 +110,43 @@ a{
     }
     .tabs img{
         max-width: 306px;
-        /* width: 80%; */
+    }
+    
+    .register{
+        margin-top: 0;
+        text-align: center;
+    }
+    .register h1{
+        font-family: 'Poppins', sans-serif;
+        padding-right: 0;
+    }
+    button{
+        border: 1px solid white;
+        font-family: 'Poppins', sans-serif;
+        color:  hsl(257, 40%, 49%);
+        height: 32px;
+        width: 172px;
+        border-radius: 24px;
+        font-size: 12px;
+    }
+    .apps{
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        margin-top: 52px;
+    } 
+    .apps div{
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .attribution{ 
+        font-size: 8px; text-align: center; 
     }
 }
 
